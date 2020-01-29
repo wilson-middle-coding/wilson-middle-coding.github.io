@@ -4,6 +4,10 @@ header h1 {
  width: 640px;
 }
 
+nav {
+ background-color:blue; 
+}
+
 nav ul{
  clear:both;
 }
