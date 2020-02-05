@@ -9,10 +9,24 @@
       }
       .left{
         width: 75%;
+        border-left-style: insert;
+        
       }
       .right{
         width: 75%;
       }
+      
+      .row:after {
+        content: "";
+        display:table;
+        clear:both;
+      }
+      
+      .right p{
+        background-color:pink;
+        padding: 20px;
+      }
+      
     </style> 
   </head>
   <body>
@@ -32,7 +46,7 @@
     </nav>
     <div class="row">
       <div class="column left" style="background-color:#orange">
-        <h2>Welcom to my Fan Page website!!!</h2>
+        <h2>Welcome to my Fan Page website!!!</h2>
         <p>This website is meant for people to see what cool things there are, that I like!</p>
     </div>
       <div class = "column right" style="background-color:#red;">
