@@ -1,6 +1,30 @@
 <html>
   <head>
     <link rel="stylesheet" type+"text/css" href="mystyle.css">
+    <style>
+      .column {
+        float: left;
+        padding: 10px;
+        height: 300px;
+      }
+      .left{
+        width: 75%;
+      }
+      .right{
+        width: 75%;
+        border-left-style: inset;
+      }
+      
+      .row:after {
+        content: "";
+        display:table;
+        clear: both;
+      }
+      
+      .right p {
+        background-color: mint;
+        padding: 20px;
+      }
   </head>
   <body>
     <header>
