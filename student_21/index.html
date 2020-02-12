@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+      .column {
+        float: left;
+        padding: 10px;
+        height: 300px;
+      }
+      .left{
+        width: 75%; 
+      }
+      .right{
+        width: 25%; 
+        border-left-style: inset;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .right p {
+        background-color:pink;
+        padding: 20px;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img src="logo.png"/>
+      </a>
+      <h1>The Coding School</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="column left" style="background-color:#aaa;">
+        <h2>Welcome to the Coding School website!</h2>
+        <p>This website is meant for the students of coding school to see what cool things
+          they can do!</p>
+      </div>
+      <div class = "column right" style="background-color:#bbb;">
+        <h2>Top Reviews</h2>
+        <p>"Best website I've ever seen." - Abe Lincoln</p>
+        <p>"Woof woof!" - My dog</p>
+      </div>
+    </div>
+    <footer> Created by Crystal :) </footer>
+  </body>
+</html>
