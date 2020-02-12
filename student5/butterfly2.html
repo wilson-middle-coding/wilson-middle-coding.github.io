@@ -1,1 +1,59 @@
 
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+      .column{
+        float: left;
+        padding: 10px;
+        height:300px;
+      }
+      .left{
+        width:75%;
+      }
+      
+      .right{
+        width: 25%;
+        border-left-style: inset;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .right p {
+        background-color:pink;
+        padding:20px;
+      }
+    </style>      
+  </head>
+  <body>
+    <header>
+      <a href="/"> 
+        <img src="logo.png"/>
+      </a>
+      <h1>Different Types of Butterflies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="butterfly1.html">The Birdwing Butterfly</a></li>
+        <li><a href="butterfly2.html">The Emerald Swallowtail</a></li>
+        <li><a href="butterfly3.html">The Glasswinged Butterfly</a></li>
+         <li><a href="butterfly4.html">The Monarch Butterfly</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="column left" style="background-color:#aaa;">
+        <h2>Welcome to the different types of butterflies website!</h2>
+        <p>This website will teach you about 4 amazing types of butterflies</p>
+      </div>
+      <div class = "column right" style="background-color:#bbb;">
+        <h2>Fun facts about butterflies</h2>
+        <p>Really cool website!- Natalie M.</p>
+      </div>
+    </div>
+    <footer> Created by Sandra Y. :) </footer>
+  </body>
+</html>
