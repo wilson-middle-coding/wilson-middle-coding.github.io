@@ -1,21 +1,68 @@
+
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+      .column{
+        float: left;
+        padding: 10px;
+        height: 300px;
+        background-color: aliceblue;
+      }
+      
+      .left{
+        width: 30%; 
+      }
+      
+      .right{
+       width: 60%; 
+      }
+      h2{
+        text-align: center;
+        padding: 12px;
+        width: 90%;
+        float: none;
+        background-color: cadetblue;
+        color: white;
+        font-family: sans-serif;
+      }
+    </style>
   </head>
   <body>
     <header>
       <a href="/">
         <img src="logo.png"/>
       </a>
-      <h1>The Australian Wildfires</h1>
+      <h1>The Coding School</h1>
+
     </header>
+
     <nav>
+
       <ul>
-        <li><a href="index.html">Home</a><li>
+
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="gallery.html">Galler</a><li>
-        <li><a href="contact.html">Contact Us</a><li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <h2>About Me</h2>
+    <div class="about">
+      <div class="column left">
+      </div>
+      <img src="profilepic.png">
+      <h3>[Your First Name Goes Here]</h3>
+      <p>[Creator]</p>
+      <div class="column right">
+        <h3>Why hello there!</h3>
+        <p> My name is [Your Name]. I'm in _ grade and I love making websites! This is one
+          way that I'm showcasing my website by making it about _. I've loved learning about 
+          _ for a long time, mainly because it shows me that _. I hope you enjoy this website.
+          and if you'd like to lern more, send me a message in the "Contact Us" page! I'd
+          love to hear your feedback! Cheers!
+        </p>
+      </div>
+    </div>
   </body>
 </html>
