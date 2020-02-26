@@ -1,0 +1,23 @@
+<html>
+<head>
+<style>
+body {
+background-image: url("splash-bg.png");
+.splash{
+text-align: center;
+}
+.enter-button {
+margin-top: block;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+</style
+</head>
+<body>
+<div class="splash">
+<img src="splash-logo.png">
+<a href="index.html" class="enter-button">Enter</a>
+</div>
+</body>
+</html>
